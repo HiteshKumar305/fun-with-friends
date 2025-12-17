@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        .box {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        button {
+            width: 120px;
+            padding: 12px;
+            margin: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .open {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .close {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Select Option</h2>
+
+    <button class="open" onclick="openPage()">Open</button>
+    <button class="close" onclick="closePage()">Close</button>
+</div>
+
+<script>
+    function openPage() {
+        window.open("open.html", "_blank");
+    }
+
+    function closePage() {
+        window.open("close.html", "_blank");
+    }
+</script>
+
+</body>
+</html>

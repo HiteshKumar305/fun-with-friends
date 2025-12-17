@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Momos Plan</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: linear-gradient(135deg, #ffecd2, #fcb69f);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        .box {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 25px;
+        }
+        button {
+            width: 140px;
+            padding: 12px;
+            margin: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .yes {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .no {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>😋 Momos khane chalega?</h2>
+
+    <!-- ABHI AAYA → come.html -->
+    <button class="yes" onclick="window.location.href='come.html'">
+        Abhi aaya
+    </button>
+
+    <!-- ABHI NAHI → newpage.html -->
+    <button class="no" onclick="window.location.href='newpage.html'">
+        Abhi nahi
+    </button>
+</div>
+
+</body>
+</html>
